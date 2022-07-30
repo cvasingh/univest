@@ -1,0 +1,51 @@
+const data = [{
+    fname: "Merry",
+    lname: "Jarry",
+    age: 23
+}, {
+    fname: "Hogan",
+    lname: "Bebbell",
+    age: 24
+}, {
+    fname: "Alexander",
+    lname: "Wrey",
+    age: 23
+}, {
+    fname: "Harriet",
+    lname: "Haisell",
+    age: 21
+}, {
+    fname: "Buiron",
+    lname: "Staggs",
+    age: 19
+}, {
+    fname: "Jdavie",
+    lname: "Rizzillo",
+    age: 25
+}, {
+    fname: "Sheelagh",
+    lname: "Epps",
+    age: 19
+}, {
+    fname: "Estrellita",
+    lname: "Boydle",
+    age: 24
+}, {
+    fname: "Alex",
+    lname: "Chastand",
+    age: 25
+}, {
+    fname: "Giacobo",
+    lname: "Meiningen",
+    age: 25
+}, {
+    fname: "Joly",
+    lname: "Albasini",
+    age: 21
+}, {
+    fname: "Maynard",
+    lname: "Mandifield",
+    age: 25
+}]
+
+export default data;
