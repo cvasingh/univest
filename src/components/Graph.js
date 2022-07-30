@@ -1,4 +1,4 @@
-import React, { useState,useRef, useCallback } from 'react';
+import React, { useState, useRef, useCallback, useEffect } from 'react';
 import {
     WhatsappShareButton, WhatsappIcon,
     FacebookShareButton, FacebookIcon,
@@ -23,11 +23,23 @@ export const options = {
 
 
 export default function Graph({ datas }) {
+    const [loading, setLoading] = useState(true)
+    var [age, setAge] = useState([])
+    var [labels, setLabels] = useState([])
+    useEffect(() => {
+        for (let i = 0; i < datas.length; i++) {
+            age[i] = datas[i].age
+            labels[i] = datas[i].fname
+        }
+        setTimeout(() => setLoading(false), 500)
+    }, [])
+    console.log(age);
+    console.log(labels);
     const [shareurl, setShareurl] = useState('chart.png')
     var refChart = useRef(null)
     const data = {
         datasets: [{
-            data: [datas[0].age, datas[1].age, datas[2].age, datas[3].age, datas[4].age, datas[5].age],
+            data: age,
             label: '',
             backgroundColor: [
                 'rgba(255, 99, 132, 0.3)',
@@ -37,7 +49,7 @@ export default function Graph({ datas }) {
             ],
             borderWidth: 1,
         }],
-        labels: [datas[0].fname, datas[1].fname, datas[2].fname, datas[3].fname, datas[4].fname, datas[5].fname]
+        labels
     };
 
     //for download
@@ -65,6 +77,6 @@ export default function Graph({ datas }) {
                 <button className='btn btn-success btn-sm' onClick={handleDownload}> Download </button>
             </div>
         </div>
-        <Bar ref={refChart} options={options} data={data} />
+        {!loading && <Bar ref={refChart} options={options} data={data} />}
     </>;
 }
