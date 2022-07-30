@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/univest/static/css/main.1d766016.css",
-    "main.js": "/univest/static/js/main.cc4866d3.js",
+    "main.js": "/univest/static/js/main.b3746e6c.js",
     "static/js/703.f5176514.chunk.js": "/univest/static/js/703.f5176514.chunk.js",
     "static/js/541.1ab44286.chunk.js": "/univest/static/js/541.1ab44286.chunk.js",
     "index.html": "/univest/index.html",
     "main.1d766016.css.map": "/univest/static/css/main.1d766016.css.map",
-    "main.cc4866d3.js.map": "/univest/static/js/main.cc4866d3.js.map",
+    "main.b3746e6c.js.map": "/univest/static/js/main.b3746e6c.js.map",
     "703.f5176514.chunk.js.map": "/univest/static/js/703.f5176514.chunk.js.map",
     "541.1ab44286.chunk.js.map": "/univest/static/js/541.1ab44286.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d766016.css",
-    "static/js/main.cc4866d3.js"
+    "static/js/main.b3746e6c.js"
   ]
 }
