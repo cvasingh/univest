@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/univest/static/css/main.1d766016.css",
-    "main.js": "/univest/static/js/main.b3746e6c.js",
+    "main.css": "/univest/static/css/main.230fe820.css",
+    "main.js": "/univest/static/js/main.ae7e8925.js",
     "static/js/703.f5176514.chunk.js": "/univest/static/js/703.f5176514.chunk.js",
-    "static/js/541.1ab44286.chunk.js": "/univest/static/js/541.1ab44286.chunk.js",
+    "static/js/513.dcd84d27.chunk.js": "/univest/static/js/513.dcd84d27.chunk.js",
     "index.html": "/univest/index.html",
-    "main.1d766016.css.map": "/univest/static/css/main.1d766016.css.map",
-    "main.b3746e6c.js.map": "/univest/static/js/main.b3746e6c.js.map",
+    "main.230fe820.css.map": "/univest/static/css/main.230fe820.css.map",
+    "main.ae7e8925.js.map": "/univest/static/js/main.ae7e8925.js.map",
     "703.f5176514.chunk.js.map": "/univest/static/js/703.f5176514.chunk.js.map",
-    "541.1ab44286.chunk.js.map": "/univest/static/js/541.1ab44286.chunk.js.map"
+    "513.dcd84d27.chunk.js.map": "/univest/static/js/513.dcd84d27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d766016.css",
-    "static/js/main.b3746e6c.js"
+    "static/css/main.230fe820.css",
+    "static/js/main.ae7e8925.js"
   ]
 }
